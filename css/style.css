@@ -1,24 +1,23 @@
 html {
-  background-color: #ffccd9;
+  background-color: #fafafa;
 }
 h2{
   padding: 10px;
   margin: 0;
   font-size: 30px;
   font-weight: 800;
-  color: #783641;
-  background-color: #ee5876;
+  color: #949494;
+  background-color: #c7c7c7;
   font-family: monospace;
 }
 table{
-  background-color: #ea81c3;
   border-spacing: 10px;
 }
 th {
   padding: 10px;
-  background-color: #d98c8c;
+  background-color: #ededed;
 }
 td {
   padding: 10px;
-  background-color: #da8b8b;
+  background-color: #dedede;
 }
