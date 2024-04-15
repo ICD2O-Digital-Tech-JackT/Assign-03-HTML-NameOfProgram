@@ -20,19 +20,26 @@
 <body>
   <!--Scripts-->
   <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  <script src="script.js"></script>
+  <script src="/js/script.js"></script>
 
   <h2>Calculating the area of a hexagon in javascript</h2>
+  <!-- Table that divides the image of a hexagon with the user input -->
   <Center>
     <table>
       <tr>
-        <th><img src="/images/HexagonImg.png" style="width: 250px;"></th>
-      <td>
-        <p>Input side a here:</p>
-        <input type="number" id="sideA" placeholder="Enter side a here"><br><br>
-        <button onclick="Calculate()">Calculate</button><br><br>
-        <div id="Output">The area of this hexagon is </div>
-      </td>
+        <th><img src="/images/HexagonImgWithSideA.png" style="width: 250px;"></th>
+        <td>
+          <!--Instructions -->
+          <p>Input side a here:</p>
+          <input type="number" id="sideA" placeholder="Enter side a here" step=".01" min=".01"><br><br>
+          <!-- Accent-colored raised button with ripple -->
+          <button onclick="Calculate()"
+            class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+            Calculate
+          </button><br><br>
+          <!-- Div for Output-->
+          <div id="Output">The area of this hexagon is </div>
+        </td>
       </tr>
     </table>
   </Center>

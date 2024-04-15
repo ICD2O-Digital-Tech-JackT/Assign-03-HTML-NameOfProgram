@@ -1,5 +1,12 @@
-// Copyright (c) 2020 Mr. Coxall All rights reserved
-//
-// Created by: Mr. Coxall
-// Created on: Sep 2020
-// This file contains the JS functions for index.html
+function Display(Result) {
+  if (Result) {
+    document.getElementById("Output").innerHTML = "The area of this hexagon is " + Result.toFixed(2)+"cm<sup>2</sup>";
+  } else {
+    document.getElementById("Output").innerHTML = "Please enter a valid number"
+  }
+}
+function Calculate() {
+  let SideA = document.getElementById("sideA").value
+  let Area = 3 * Math.sqrt(3) / 2 * Math.pow(SideA, 2)
+  Display(Area)
+}
