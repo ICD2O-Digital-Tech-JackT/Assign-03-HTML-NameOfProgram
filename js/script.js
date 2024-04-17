@@ -10,7 +10,6 @@ function Calculate() {
 /* function to display the area and perimeter */
 function Display() {
   let Array = Calculate();
-  document.getElementById("Output").innerHTML = Array[0]
   if (Array[0]) {
     document.getElementById("Output").innerHTML = "The area of this hexagon is " + Array[0].toFixed(2) + "cm<sup>2</sup><br>The permieter of this hexagon is " + Array[1].toFixed(2) + "cm";
   } else {
