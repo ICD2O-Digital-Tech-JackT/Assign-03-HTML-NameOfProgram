@@ -1,7 +1,8 @@
+/* Background */
 html {
   background-color: #fafafa;
 }
-
+/* Header */
 h2 {
   padding: 10px;
   margin: 0;
@@ -11,16 +12,16 @@ h2 {
   background-color: #c7c7c7;
   font-family: monospace;
 }
-
+/* Table spacing */
 table {
   border-spacing: 10px;
 }
-
+/* Table color 1 */
 th {
   padding: 10px;
   background-color: #ededed;
 }
-
+/* Table color 2 */
 td {
   padding: 10px;
   background-color: #dedede;
